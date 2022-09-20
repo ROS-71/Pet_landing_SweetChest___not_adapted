@@ -1,0 +1,1267 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&display=swap');
+
+body {
+	position: relative;
+	width: 1920px;
+	height: 9219px;
+	margin: 0;
+
+	background: #081130;
+}
+
+/* ----------------------------------------
+	-------------ГЛАВНЫЙ ЭКРАН-------------- 
+	---------------------------------------*/
+
+.mainScreen{
+	position: absolute;
+	width: 1920px;
+	height: 1294px;
+	left: 0px;
+	top: -1px;
+	background: #081130;
+}
+
+/*#region*/ /* Остальной код ГЛАВНЫЙ ЭКРАН */
+.leaf1{
+	position: absolute;
+	width: 275px;
+	height: 286px;
+	top: 910px;
+	filter: blur(2px) saturate(1.5);
+}
+
+.berry_1{
+	position: absolute;
+	width: 195px;
+	height: 201px ;
+	left: 1481px;
+	top: 956px;
+	transform: rotate(259deg);
+}
+
+.berry_2{
+	position: absolute;
+	width: 195px;
+	height: 201px;
+	left: 13px;
+	top: 240px;
+	transform: rotate(5deg);
+}
+
+.berry_3{
+	position: absolute;
+	width: 170px;
+	height: 175px;
+	left: 1840px;
+	top: 109px;
+	transform: rotate(75deg);
+}
+
+.header {
+	position: absolute;
+	width: 1920px;
+	height: 82px;
+	left: 0px;
+	top: 37px;
+}
+
+.line{
+	position: absolute;
+	height: 0px;
+	left: 0%;
+	right: 0%;
+	bottom: 1175px;
+	top: 81px;
+	opacity: 0.1;
+	border: 1px solid #7E868E;
+}
+
+.logo {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	padding: 0px;
+	gap: 17px;
+	position: absolute;
+	width: 179px;
+	height: 31px;
+	left: 370px;
+	top: 7px;
+}
+
+.logoText {
+	width: 179px;
+	height: 21px;
+	font-family: "Montserrat";
+	font-style: normal;
+	font-weight: 500;
+	font-size: 21px;
+	line-height: 143%;
+	display: flex;
+	align-items: center;
+	color: #ffffff;
+}
+
+.phone {
+	display: flex;
+	flex-direction: row;
+	align-items: flex-start;
+	padding: 0px;
+	gap: 15px;
+	position: absolute;
+	width: 231px;
+	height: 51px;
+	left: 1319px;
+	top: 7px;
+}
+
+.phoneImg {
+	width: 36px;
+	height: 36px;
+}
+
+.phoneIcon {
+	position: absolute;
+	width: 19px;
+	height: 19px;
+	left: calc(7% - 19px/2 + 10.5px);
+	top: calc(35% - 19px/2 - 2.5px);
+}
+
+.phoneNumber {
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	padding: 0px;
+	width: 180px;
+	height: 51px;
+}
+
+.phoneNumberText {
+	color: #ffffff;
+	width: 180px;
+	height: 31px;
+	font-family: "Montserrat";
+	font-style: normal;
+	font-weight: 700;
+	font-size: 20px;
+	line-height: 152%;
+	margin: 0;
+	display: flex;
+	align-items: center;
+}
+
+.phoneNumberTime {
+	color: #ffffff;
+	width: 179px;
+	height: 20px;
+	font-family: "Montserrat";
+	font-style: normal;
+	font-weight: 400;
+	font-size: 13px;
+	line-height: 150%;
+	margin: 0;
+	display: flex;
+	align-items: center;
+}
+
+.AdressEmail{
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	padding: 0px;
+	gap: 59px;
+	position: absolute;
+	width: 151px;
+	height: 36px;
+	right: 670px;
+	top: -1px;
+}
+
+.Adress{
+	display: flex;
+	flex-direction: row;
+	align-items: flex-start;
+	padding: 0px;
+	gap: 12px;
+	width: 151px;
+	height: 36px;
+	
+}
+
+.GeoImg{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding: 17px 0px;
+	gap: 10px;
+	width: 17px;
+	height: 23px;
+}
+
+.GeoIcon{
+	width: 17px;
+	height: 17px;
+	transform: matrix(-1, 0, 0, 1, 0, 0);
+}
+
+.GeolocationIcon{
+	position: absolute;
+	left: 15.55%;
+	right: 15.56%;
+	top: 0%;
+	bottom: 0%;
+}
+
+.AdressText{
+	color: #ffffff;
+	width: 122px;
+	height: 36px;
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 12px;
+	line-height: 150%;
+}
+
+.TextMainPage{
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	padding: 0px;
+	gap: 40px;
+	position: absolute;
+	width: 647px;
+	height: 462px;
+	left: 370px;
+	top: 307px;
+}
+
+.headerTextMainPage{
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	padding: 0px;
+	width: 647px;
+	height: 334px;
+
+}
+
+.nadZagolovok{
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	padding: 10px 18px;
+	gap: 10px;
+	height: 37px;
+	background: #F2F6FA;
+	border-radius: 5px;
+}
+
+.TextNadZagolovok{
+	width: 96px;
+	height: 17px;
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 11px;
+	line-height: 150%;
+	display: flex;
+	align-items: center;
+	letter-spacing: 0.1em;
+	text-transform: uppercase;
+	color: #2E363E;
+}
+
+.Zagolovok{
+	margin-top: -30px;
+	width: 647px;
+	height: 180px;
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 48px;
+	line-height: 60px;
+	letter-spacing: -1px;
+	color: #ffffff;
+	
+}
+
+.PodZagolovok{
+	width: 544px;
+	height: 69px;
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 24px;
+	line-height: 143%;
+	color: #ffffff;
+	padding-top: 30px;
+}
+
+.TextButtonTextMainPage{
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	padding: 0px;
+	gap: 20px;
+	width: 507px;
+	height: 88px;
+}
+
+.Button{
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	padding: 0 0 0 60px; 
+	gap: 10px;
+	width: 277px;
+	height: 88px;
+	background: #FED84C;
+	border-radius: 8px;
+}
+
+.GoToCatalog{
+	width: 177px;
+	height: 28px;
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 500;
+	font-size: 18px;
+	line-height: 152%;
+	display: flex;
+	align-items: center;
+	text-align: center;
+	color: #2E363E;
+}
+
+.ButtonSideText{
+	width: 210px;
+	height: 48px;
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 15px;
+	line-height: 160%;
+	color: #FFFFFF;
+}
+
+.SideText{
+	margin: auto;
+	padding: 0 50px 0 0;
+}
+/*#endregion*/
+/* ----------------------------------------
+	------------КАТАЛОГ ТОВАРОВ------------- 
+	---------------------------------------*/
+
+.CatalogItems{
+	position: absolute;
+	width: 1920px;
+	height: 1926px;
+	left: 0px;
+	top: 1233px;
+	background: #FFFFFF;
+	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+/*#region*/ /* Остальной код КАТАЛОГ ТОВАРОВ */
+.leaf2{
+	position: absolute;
+	width: 108px;
+	height: 112px;
+	left: 229px;
+	top: 1386px;
+	z-index: 1;
+	filter: blur(12px);
+	transform: rotate(272deg)
+}
+
+.leaf3{
+	position: absolute;
+	width: 161px;
+	height: 167px;
+	left: 1524px;
+	top: 992px;
+	z-index: 2;
+	filter: blur(12px);
+}
+
+.berry4{
+	position: absolute;
+	width: 170px;
+	height: 174px;
+	left: 214px;
+	top: 280px;
+	z-index: 3;
+	filter: blur(8px);
+	transform: rotate(-63.54deg);
+}
+
+.content1{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding: 0px;
+	gap: 20px;
+	position: absolute;
+	width: 1180px;
+	height: 1786px;
+	left: 370px;
+	top: 140px;
+}
+
+	/* Первая линия карточек с товаром */
+.cartLine1{
+	display: flex;
+	flex-direction: row;
+	align-items: flex-start;
+	padding: 0px;
+	gap: 20px;
+	width: 1180px;
+	height: 582px;
+}
+
+	/* Первая карточка с товаром */
+.cl_cart1{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding: 0px;
+	width: 380px;
+	height: 582px;
+	filter: drop-shadow(2px 8px 16px rgba(194, 198, 208, 0.06));
+}
+
+	/* Вторая карточка с товаром */
+.cl_cart2{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding: 0px;
+	width: 380px;
+	height: 582px;
+	filter: drop-shadow(2px 8px 16px rgba(194, 198, 208, 0.06));
+}
+
+	/* Третья карточка с товаром */
+.cl_cart3{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding: 0px;
+	width: 380px;
+	height: 582px;
+	filter: drop-shadow(2px 8px 16px rgba(194, 198, 208, 0.06));
+}
+
+	/* Визуализация всего блока класа TextButton_cl_cart */
+	/*#region*/
+.TextButton_cl_cart{
+	width: 380px;
+	height: 337px;
+	box-sizing: border-box;
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	padding: 50px 44px;
+	gap: 24px;
+	border: 1px solid #F2F6FA;
+	border-radius: 0 0 10px 10px;
+}
+
+.Text_cl_cart{
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	width: 247px;
+	height: 95px;
+	padding: 0;
+	gap: 12px;
+}
+
+.Zagolovok_cl_cart{
+	width: 247px;
+	height: 35px;
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 24px;
+	line-height: 143%;
+	color: #2E363E;
+	margin: 0;
+}
+
+.About_cl_cart{
+	width: 247px;
+	height: 48px;
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 150%;
+	margin: 0;
+}
+
+.CostButton_cl_cart{
+	width: 163px;
+	height: 118px;
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	padding: 0px;
+	gap: 14px;
+	
+}
+
+.CostButtonText_cl_cart{
+	width: 112px;
+	height: 36px;
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 500;
+	font-size: 24px;
+	line-height: 150%;
+	color: #434B53;
+	margin: 0;
+}
+
+.CostText_cl_cart{
+	margin: 0;
+}
+
+.Button_cl_cart{
+	width: 83px;
+	height: 68px;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	padding: 20px 40px;
+	gap: 10px;
+	background: #FED84C;
+	border-radius: 8px;
+}
+
+.ButtonText_cl_cart{
+	width: 83px;
+	height: 28px;
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 500;
+	font-size: 18px;
+	line-height: 152%;
+	color: #2E363E;
+	display: flex;
+	align-items: center;
+	text-align: center;
+}
+/*#endregion*/
+
+	/* Вторая линия карточек стоваром */
+.cartLine2{
+	display: flex;
+	flex-direction: row;
+	align-items: flex-start;
+	padding: 0px;
+	gap: 20px;
+	width: 1180px;
+	height: 582px;
+}
+
+	/* Третьяя линия карточек с товаром */
+.cartLine3{
+	display: flex;
+	flex-direction: row;
+	align-items: flex-start;
+	padding: 0px;
+	gap: 20px;
+	width: 1180px;
+	height: 582px;
+}
+
+	/* Заголовок-разделитель между Главным экраном и Каталогом товаров */
+.betweenPageTextBlock{
+	position: absolute;
+	width: 1180px;
+	height: 60px;
+	left: 370px;
+	top: 0px;
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 500;
+	font-size: 48px;
+	line-height: 60px;
+	display: flex;
+	align-items: flex-end;
+	text-align: center;
+	letter-spacing: -1px;
+	color: #2E363E;
+	border: 1px solid #000000;	/* ??? */
+	text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.betweenPageText{
+	margin: auto;
+}
+	/*#endregion*/
+
+	/* --------------------------------------
+	---------------КОНТЕНТ 1-----------------
+	---------------------------------------*/
+
+.ScreenContent_1{
+	position: absolute;
+	width: 1920px;
+	height: 1352px;
+	left: 0;
+	top: 3129px;
+	background: #081130;
+}
+
+	/*#region*/ /* Остальной код экрана КОНТЕНТ 1 */
+.leaf4{
+	position: absolute;
+	width: 110px;
+	height: 114px;
+	left: 310px;
+	top: 390px;
+	filter: blur(13.5px);
+	transform: rotate(270deg);
+}
+
+.berry5{
+	position: absolute;
+	width: 152px;
+	height: 156px;
+	left: 1569px;
+	top: 332px;
+	filter: blur(6.5px);
+	transform: rotate(-139deg)
+}
+
+.ScrCont_1_top{
+	position: absolute;
+	width: 1920px;
+	height: 330px;
+}
+
+.ScrCont_1_phone{
+	position: absolute;
+	width: 1090px;
+	height: 1034px;
+	top: 330px;
+}
+
+.ScrCont_1_bottom{
+	position: absolute;
+	width: 1920px;
+	height: 489px;
+	top: 863px;
+}
+
+.ScrCont_1_MainText{
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	padding: 0;
+	gap: 40px;
+	position: absolute;
+	width: 481px;
+	height: 454px;
+	left: 1070px;
+	top: 439px;
+}
+
+.ScrCont_1_Header{
+	width: 481px;
+	height: 326px;
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	padding: 0;
+	gap: 24px;
+}
+
+.ScrCont_1_Nadzagolovok{
+	width: 226px;
+	height: 37px;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	padding: 10px 18px;
+	gap: 10px;
+	background: #F2F6FA;
+	border-radius: 5px;
+}
+
+.ScrCont_1_Text{
+	width: 194px;
+	height: 17px;
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 11px;
+	line-height: 150%;
+	display: flex;
+	align-items: center;
+	letter-spacing: 0.1em;
+	text-transform: uppercase;
+	color: #2E363E;
+	margin: auto;	
+}
+
+.ScrCont_1_Zagolovok{
+	width: 481px;
+	height: 180px;
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 500;
+	font-size: 48px;
+	line-height: 60px;
+	letter-spacing: -1px;
+	color: #FFFFFF;
+}
+
+.ScrCont_1_ZagolovokText{
+	margin: 0;
+}
+
+.ScrCont_1_Podzagolovok{
+	width: 481px;
+	height: 61px;
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 21px;
+	line-height: 143%;
+	letter-spacing: -0.2px;
+	color: #FFFFFF;
+}
+
+	/* Блок кнопки */
+.ScrCont_1_TextButton{
+	width: 320px;
+	height: 88px;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	padding: 0;
+	gap: 20px;
+}
+
+.ScrCont_1_Button{
+	width: 320px;
+	height: 88px;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	gap: 10px;
+	background: #FED84C;
+	border-radius: 8px;
+}
+
+.ScrCont_1_ButtonText{
+	width: 220px;
+	height: 20px;
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 500;
+	font-size: 18px;
+	line-height: 152%;
+	display: flex;
+	align-items: center;
+	text-align: center;
+	margin: auto;
+	color: #2E363E;
+}
+	/*#endregion*/
+
+	/* --------------------------------------
+	---------------КОНТЕНТ 2-----------------
+	---------------------------------------*/
+	
+.ScreenContent_2{
+	border: 1px solid red;	/*  */
+
+	position: absolute;
+	width: 1920px;
+	height: 830px;
+	top: 4481px;;
+	background: #FFFFFF;
+}
+
+	/*#region*/ /* Остальной код экрана КОНТЕНТ 2 */
+	/* Общий блок для двух наклонных прямоугольников */
+.ScrCont_2_Name{
+	position: absolute;
+	width: 287px;
+	height: 112px;
+	left: 868px;
+	top: 544px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+	/* Верхний наклонный прямоугольник с именем */
+.ScrCont_2_NameInside{
+	width: 287px;
+	height: 60px;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	z-index: 1;
+}
+	/* ЛЕВЫЕ внутринние и внешние классы блоков с наклоном одной стороны */
+.ScrCont_2_NameRectangle_left{
+	width: 24px;
+	height: 60px;
+	transform: skew(-7deg);
+	background: #2E363E;
+	border-radius: 5px 0 0 5px;
+	}
+.ScrCont_2_NameRectangle_left_Inside{	/* Данный тег (класс) является продолжением отрисовки предыдущего класса "ScrCont_2_NameRectangle_left" */
+	position: absolute;
+	width: 14px;
+	height: 60px;
+	margin: 13px;
+	background: #2E363E;
+	z-index: 100;		/* Подогнать значение в конце вёрстки экрана*/
+}
+
+	/* Текстовые блоки классов */
+.ScrCont_2_NameText_1{
+	width: 239px;
+	height: 60px;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	padding-left: 2px;
+	gap: 10px;
+	background: #2E363E;
+}
+
+.ScrCont_2_NameText_1_Text{
+	width: 239px;
+	height: 30px;
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 500;
+	font-size: 24px;
+	line-height: 29px;
+	display: flex;
+	align-items: center;
+	text-align: center;
+	letter-spacing: -0.3px;
+	color: #FFFFFF;
+}
+
+	/* ПРАВЫЕ внутринние и внешние классы блоков с наклоном одной строны */
+.ScrCont_2_NameRectangle_right_Inside{
+	position: absolute;
+	width: 14px;
+	height: 60px;
+	margin-left: 260px;
+	background:#2E363E;
+}
+
+.ScrCont_2_NameRectangle_right{	/* Данный тег (класс) является продолжением отрисовки предыдущего класса "ScrCont_2_NameRectangle_right" */
+	width: 24px;
+	height: 60px;
+	transform: rotate(-180deg);
+	transform: skew(-7deg);
+	border-radius: 0 5px 5px 0;
+	background: #2E363E
+}
+
+	/* Нижний наклонный прямоугольник с должностью */
+.ScrCont_2_NameText{
+	width: 218px;
+	height: 52px;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	z-index: 1;
+}
+	/* ЛЕВЫЕ внутринние и внешние классы блоков с наклоном одной стороны */
+.ScrCont_2_NameTextRectangle_left{
+	width: 24px;
+	height: 52px;
+	background: #F2F6FA;
+	transform: skew(-7deg);
+	border-radius: 5px 0 0 5px;
+}
+
+.ScrCont_2_NameTextRectangle_left_Inside{
+	width: 10px;
+	height: 52px;
+	background: #F2F6FA;
+	margin: -3px;
+}
+	
+	/* Текстовые блоки классов */
+.ScrCont_2_NameText_2{
+	width: 170px;
+	height: 52px;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	gap: 10px;
+	background: #F2F6FA;
+}
+
+.ScrCont_2_NameText_2_Text{
+	width: 170px;
+	height: 22px;
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 18px;
+	line-height: 22px;
+	display: flex;
+	align-items: center;
+	text-align: center;
+	letter-spacing: 1px;
+	text-transform: uppercase;
+}
+
+	/* ПРАВЫЕ внутринние и внешние классы блоков с наклоном одной строны */
+.ScrCont_2_NameTextRectangle_right_Inside{
+	position: absolute;
+	width: 10px;
+	height: 52px;
+	background: #F2F6FA;
+	margin-left: 195px;
+	}
+
+.ScrCont_2_NameTextRectangle_right{
+	width: 24px;
+	height: 52px;
+	background: #F2F6FA;
+	transform: skew(-7deg);
+	border-radius: 0 5px 5px 0;
+}
+
+	/* Блок классов для главного блока с текстом: ScrCont_2_MainTextBlock */
+.ScrCont_2_MainTextBlock{
+	position: absolute;
+	width: 580px;
+	height: 637px;
+	left: 362px;
+	top: 97px;
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	gap: 50px;
+}
+
+.MTB_Header_Bullits{
+	width: 580px;
+	height: 499px;
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	gap: 36px;
+}
+
+.MTB_Header{
+	width: 580px;
+	height: 241px;
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	gap: 24px;
+}
+
+.MTB_Header_Nadzagolovok{
+	width: 191px;
+	height: 37px;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	gap: 10px;
+	background: #F2F6FA;
+	border-radius: 5px;
+}
+
+.MTB_Header_Nadzagolovok_Text{
+	width: 155px;
+	height: 17px;
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-size: 11px;
+	line-height: 150%;
+	display: flex;
+	align-items: center;
+	letter-spacing: 0.1em;
+	text-transform: uppercase;
+	color: #2E363E;
+	margin: auto;
+}
+
+.MTB_Header_Zagolovok{
+	width: 580px;
+	height: 180px;
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 500;
+	font-size: 48px;
+	line-height: 60px;
+	letter-spacing: -1px;
+	color: #2E363E;
+	margin: auto;
+}
+	
+	/* Класы блоков текста с маркерным списком*/
+.MTB_Bullits{
+	width: 438px;
+	height: 222px;
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	gap: 26px;
+}
+
+	/* Блок маркера для блоков текста */
+.MTB_Bullits_marker{
+	list-style-type: none;
+}
+.MTB_Bullits_marker::before{
+	position: absolute;
+	color: #5D6AFB;
+	content: "•";
+	font-size: 30px;
+	margin: -7px 0 0 0;
+}
+	
+	/* 1-й блок текста */
+.MTB_Bullits_TextBlock1{
+	width: 401px;
+	height: 54px;
+	display: flex;
+	flex-direction: row;
+	align-items: flex-start;
+	gap: 12px;
+}
+	
+.MTB_Bullits_1_Text{
+	width: 379px;
+	height: 54px;
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 18px;
+	line-height: 150%;
+	color: #2E363E;
+	margin: auto;
+}
+
+	/* 2-й блок текста */
+.MTB_Bullits_TextBlock2{
+	width: 438px;
+	height: 54px;
+	display: flex;
+	flex-direction: row;
+	align-items: flex-start;
+	gap: 12px;
+}
+.MTB_Bullits_2_Text{
+	width: 416px;
+	height: 54px;
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 18px;
+	line-height: 150%;
+	color: #2E363E;
+	margin: auto;
+}
+
+	/* 3-й блок текста */
+.MTB_Bullits_TextBlock3{
+	width: 389px;
+	height: 54px;
+	display: flex;
+	flex-direction: row;
+	align-items: flex-start;
+	gap: 12px;
+}
+	
+.MTB_Bullits_3_Text{
+	width: 367px;
+	height: 54px;
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 18px;
+	line-height: 150%;
+	color: #2E363E;
+	margin: auto;
+}
+
+	/* Кнопка с текстом */
+.MTB_Text_Button{
+	width: 299px;
+	height: 88px;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	gap: 20px;
+}
+
+.MTB_Button{
+	width: 299px;
+	height: 88px;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	gap: 10px;
+	background: #FED84C;
+	border-radius: 8px;
+}
+
+.MTB_ButtonText{
+	width: 199px;
+	height: 28px;
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 500;
+	font-size: 18px;
+	line-height: 152%;
+	display: flex;
+	align-items: center;
+	text-align: center;
+	color: #2E363E;
+	margin: auto;
+}
+
+	/* Классы блоков с изображениеем девушки */
+.woman{
+	position: absolute;
+	width: 580px;
+	height: 804px;
+	left: 962px;
+	top: 14px;
+}
+
+	/* Блок классов WOMAN */
+	/* Изображение девушки - вернее */
+.ScrCont_2_woman_2{
+	position: absolute;
+	width: 487px;
+	height: 652px;
+	left: 63px;
+	top: 14px;
+}
+
+	/* Жёлтый круг возади */
+.woman_Circle_yellow{
+	position: absolute;
+	width: 580px;
+	height: 580px;
+	top: 238px;
+	background: #FED84C;
+	border-radius: 50%;
+}
+
+	/* Круг с заливкой изображением девушки 
+	также, данный класс задаёт изображение девушки - нижнее  
+	с закруглением с низу визуализируется через код CSS который ниже */
+.woman_Circle_bgr{
+	position: absolute;
+	width: 580px;
+	height: 580px;
+	top: 238px;
+	background: #FED84C;
+	border-radius: 50%;
+	background-image: url(/img/ScreenContent_2_woman_1.png);
+	background-position-y: -224px;
+	background-position-x: 63px;
+	background-repeat: no-repeat;
+}
+
+.ScrCont_2_berry{
+	position: absolute;
+	width: 159px;
+	height: 163px;
+	left: 35px;
+	top: 188px;
+	filter: blur(6.5px);
+	transform: rotate(-53.18deg);
+}
+
+.ScrCont_2_GroupLeaf{
+	position: absolute;
+	width: 275px;
+	height: 266px;
+	left: 320px;
+	top: 172px;
+}
+
+.ScrCont_2_leaf1{
+	position: absolute;
+	width: 190px;
+	height: 198px;
+	filter: blur(7.5px);
+	transform: rotate(320deg);
+}
+
+.ScrCont_2_leaf2{
+	position: absolute;
+	width: 190px;
+	height: 198px;
+	left: 10px;
+	top: -5px;
+	filter: blur(7.5px);
+	transform: rotate(340deg);
+}
+
+.ScrCont_2_leaf3{
+	position: absolute;
+	width: 190px;
+	height: 198px;
+	left: 30px;
+	filter: blur(7.5px);
+	transform: rotate(360deg);
+}
+/*#endregion*/
+
+	/* --------------------------------------
+	----------ОТЗЫВЫ - ScreenReport----------
+	---------------------------------------*/
+
+.ScreenReport{
+	position: absolute;
+	width: 1920px;
+	height: 1505px;
+	left: 0px;
+	top: 5257px;
+	
+	background: #081130;
+
+	border: 1px solid red;	/*  */
+}
+
+.ScrReport_Top{
+	position: absolute;
+	width: 1920px;
+	height: 330px;
+	left: 0px;
+	top: 0px;
+}
+
+.ScrReport_Bottom{
+	position: absolute;
+	width: 1920px;
+	height: 284px;
+	left: 0px;
+	top: 1221px;
+}
+
+.ScrReport_Slider{
+	position: absolute;
+	width: 3148px;
+	height: 615px;
+	margin: 350px 0 0 -580px;
+}
