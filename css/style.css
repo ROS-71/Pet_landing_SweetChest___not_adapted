@@ -5,7 +5,6 @@ body {
 	width: 1920px;
 	height: 9219px;
 	margin: 0;
-
 	background: #081130;
 }
 
@@ -782,8 +781,6 @@ body {
 	---------------------------------------*/
 	
 .ScreenContent_2{
-	border: 1px solid red;	/*  */
-
 	position: absolute;
 	width: 1920px;
 	height: 830px;
@@ -1237,13 +1234,27 @@ body {
 	height: 1505px;
 	left: 0px;
 	top: 5257px;
-	
 	background: #081130;
-
-	border: 1px solid red;	/*  */
 }
 
-.ScrReport_Top{
+	/*#region*/ /* Остальной код экрана ОТЗЫВЫ */
+.ScrRep_Zagolovok{
+	position: absolute;
+	width: 1180px;
+	height: 60px;
+	left: 370px;
+	top: 306px;
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 500;
+	font-size: 48px;
+	line-height: 60px;
+	text-align: center;
+	letter-spacing: -1px;
+	color: #FFFFFF;
+}
+
+.ScrRep_Top{
 	position: absolute;
 	width: 1920px;
 	height: 330px;
@@ -1251,7 +1262,7 @@ body {
 	top: 0px;
 }
 
-.ScrReport_Bottom{
+.ScrRep_Bottom{
 	position: absolute;
 	width: 1920px;
 	height: 284px;
@@ -1259,9 +1270,416 @@ body {
 	top: 1221px;
 }
 
-.ScrReport_Slider{
+.ScrRep_Slider{
 	position: absolute;
 	width: 3148px;
 	height: 615px;
-	margin: 350px 0 0 -580px;
+	margin: 450px 0 0 -580px;
 }
+
+.ScrRep_SliderButon{
+	position: absolute;
+	width: 155px;
+	height: 66px;
+	left: 912px;
+	top: 1135px;
+}
+
+.ScrRep_SliderLeft{
+	position: absolute;
+	width: 66px;
+	height: 66px;
+	background: #FED84C;
+	border: 4px solid #2E363E;
+	border-radius: 50%;
+}
+
+.ScrRep_SliderRight{
+	position: absolute;
+	width: 66px;
+	height: 66px;
+	left: 85px;
+	background: #FED84C;
+	border: 4px solid #2E363E;
+	border-radius: 50%;
+}
+
+.ScrRep_ArrowLeft{
+	position: absolute;
+	width: 30px;
+	height: 30px;
+	border-top: 10px solid #2E363E;
+	border-right: 10px solid #2E363E;
+	left: 20px;
+	top: -3px;
+	transform: rotate(-135deg);
+}
+
+.SCRRep_ArrowRight{
+	position: absolute;
+	width: 30px;
+	height: 30px;
+	border-top: 10px solid #2E363E;
+	border-right: 10px solid #2E363E;
+	left: 5px;
+	top: -2px;
+	transform: rotate(45deg);
+}
+/*#endregion*/
+
+
+
+/* ***************************** */
+.slidetInfo{
+	position: absolute;
+	left: 300px;
+	font-size: 72pt;
+	color: red;
+	font-weight: 700;
+}
+/* ***************************** */
+
+
+
+/* -----------------------------------------
+	-------ГАЛЕРЕЯ - ScreenGallery-----------
+	---------------------------------------*/
+
+.ScreenGallery{
+	position: absolute;
+	width: 1920px;
+	height: 1545px;
+	background: #FFFFFF;
+	top: 6762px;
+}
+
+/*#region*/	/* Остальной код экрана ГАЛЕРЕЯ */
+.ScrGal_Header{
+	position: absolute;
+	width: 938px;
+	height: 109px;
+	left: 491px;
+	top: 2px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	gap: 14px;
+}
+
+.SG_Header_Top{
+	width: 938px;
+	height: 60px;
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 500;
+	font-size: 48px;
+	line-height: 60px;
+	text-align: center;
+	letter-spacing: -1px;
+	color: #2E363E;
+	margin: 0;
+}
+
+.SG_Header_Bottom{
+	width: 739px;
+	height: 35px;
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 24px;
+	line-height: 143%;
+	text-align: center;
+	color: #2E363E;
+	margin: 0;
+}
+
+.ScrGal_ContentButton{
+	position: absolute;
+	width: 1920px;
+	height: 1350px;
+	left: 0px;
+	top: 191px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	gap: 60px;
+}
+
+.ScrGal_ContentImage{
+	width: 1920px;
+	height: 1350px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	gap: 9px;
+}
+
+.SG_Block_1{
+	width: 1920px;
+	height: 444px;
+	display: flex;
+	flex-direction: row;
+	align-items: flex-start;
+	gap: 9px;
+}
+
+.SG_Block_2{
+	width: 1920px;
+	height: 444px;
+	display: flex;
+	flex-direction: row;
+	align-items: flex-start;
+	gap: 9px;
+}
+
+.SG_Block_3{
+	width: 1920px;
+	height: 444px;
+	display: flex;
+	flex-direction: row;
+	align-items: flex-start;
+	gap: 9px;
+}
+
+.ImageGallery{
+	width: 634px;
+	height: 444px;
+}
+/*#endregion*/
+
+/* ---------------------------------------
+	---------ОС - ScreenFeedBack------------
+	---------------------------------------*/
+
+.ScreenFeedBack{
+	position: absolute;
+	width: 1920px;
+	height: 912px;
+	top: 8307px;
+	background: #081130;
+}
+
+/*#region*/	/* Остальной код  ОС - ScreenFeedBack*/
+.ScrFB_ImageTop{
+	position: absolute;
+	width: 1920px;
+	height: 284px;
+	transform: scale(-1, 1)
+}
+
+.ScrFB_leaf1{
+	position: absolute;
+	width: 106px;
+	height: 111px;
+	left: 283px;
+	top: 226px;
+	filter: blur(6.5px);
+	transform: rotate(-94.95deg);
+	z-index: 1;
+}
+
+.ScrFB_leaf2{
+	position: absolute;
+	width: 146px;
+	height: 153px;
+	left: 1515px;
+	top: 632px;
+	filter: blur(6.5px);
+	transform: rotate(76.12deg);
+	z-index: 1;
+}
+
+.ScrFB_berry1{
+	position: absolute;
+	width: 152px;
+	height: 155px;
+	left: 1483px;
+	top: 194px;
+	transform: rotate(31.18deg);
+	z-index: 1;
+}
+
+.ScrFB_berry2{
+	position: absolute;
+	width: 167px;
+	height: 171px;
+	left: 237px;
+	top: 645px;
+	transform: rotate(-127.23deg);
+}
+
+.ScrFB_Form{
+	position: absolute;
+	width: 1180px;
+	height: 394px;
+	left: 370px;
+	top: 300px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	gap: 36px;
+	background: #FFFFFF;
+	border-radius: 8px;
+}
+
+.ScrFB_InsideFrame{
+	width: 880px;
+	height: 254px;
+	margin: 70px 99px;
+}
+
+.ScrFB_Header{
+	width: 880px;
+	height: 91px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	gap: 12px;
+}
+
+.ScrFB_Zagolovok{
+	width: 880px;
+	height: 48px;
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 36px;
+	line-height: 133%;
+	text-align: center;
+	color: #2E363E;
+	margin: 0;
+}
+
+.ScrFB_PodZagolovok{
+	width: 880px;
+	height: 31px;
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 21px;
+	line-height: 143%;
+	text-align: center;
+	letter-spacing: -0.2px;
+	color: #2E363E;
+	margin: 0;
+}
+
+.ScrFB_Fields_Checkbox{
+	width: 780px;
+	height: 127px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	gap: 24px;
+	margin: 33px 50px 0 50px;
+}
+
+.ScrFB_Field_Button{
+	width: 780px;
+	height: 86px;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	gap: 20px;
+}
+
+.ScrFB_FieldPhone{
+	width: 305px;
+	height: 85px;
+	border: 0;
+	border-radius: 8px;
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 30px;
+	line-height: 160%;
+	text-align: center;
+	padding: 0 10px 0 65px;
+	background-image: url(/img/PhoneIcon_Grey.png);
+	background-color: #F2F6FA;
+	background-repeat: no-repeat;
+	background-position-x: 10px;
+	background-position-y: center;
+	background-size: 10%;
+}
+
+.ScrFB_Button{
+	width: 380px;
+	height: 86px;
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 500;
+	font-size: 18px;
+	line-height: 152%;
+	display: flex;
+	align-items: center;
+	text-align: center;
+	color: #2E363E;
+	padding: 29px 123.5px;
+	gap: 10px;
+	background: #FED84C;
+	border: 0;
+	border-radius: 8px;
+}
+.ScrFB_Button:active{
+	background-color: #ebc748;
+}
+
+
+.ScrFB_Checkbox{
+	width: 512px;
+	height: 17px;
+}	
+label {
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 11px;
+	line-height: 130%;
+	color: #7E868E;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	position: relative;
+	top: -10px;
+	}
+
+footer{
+	position: absolute;
+	width: 605px;
+	height: 58px;
+	left: 657px;
+	top: 774px;
+	gap: 22px;
+}
+
+.footerLinks{
+	width: 605px;
+	height: 18px;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	gap: 43px;
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 12px;
+	line-height: 150%;
+	color: #7E868E;
+}
+
+.endText{
+	width: 478px;
+	height: 18px;
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 12px;
+	line-height: 150%;
+	display: flex;
+	align-items: center;
+	text-align: center;
+	color: #7E868E;
+	margin: 20px 63.5px 0 63.5px;
+}
+/*#endregion*/
