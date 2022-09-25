@@ -4,8 +4,11 @@ body {
 	position: relative;
 	width: 1920px;
 	height: 9219px;
-	margin: 0;
+	margin: auto;
 	background: #081130;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
 }
 
 /* ----------------------------------------
@@ -596,7 +599,6 @@ body {
 	text-align: center;
 	letter-spacing: -1px;
 	color: #2E363E;
-	border: 1px solid #000000;	/* ??? */
 	text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
@@ -1235,6 +1237,8 @@ body {
 	left: 0px;
 	top: 5257px;
 	background: #081130;
+
+	border: 1px solid red;	/*  */
 }
 
 	/*#region*/ /* Остальной код экрана ОТЗЫВЫ */
