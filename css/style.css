@@ -1237,8 +1237,6 @@ body {
 	left: 0px;
 	top: 5257px;
 	background: #081130;
-
-	border: 1px solid red;	/*  */
 }
 
 	/*#region*/ /* Остальной код экрана ОТЗЫВЫ */
@@ -1258,29 +1256,70 @@ body {
 	color: #FFFFFF;
 }
 
+/* Вернхняя и нижняя картинка экрана - облака */
 .ScrRep_Top{
 	position: absolute;
 	width: 1920px;
 	height: 330px;
-	left: 0px;
-	top: 0px;
+
 }
 
 .ScrRep_Bottom{
 	position: absolute;
 	width: 1920px;
 	height: 284px;
-	left: 0px;
 	top: 1221px;
 }
+/* ------------------------------------------ */
 
-.ScrRep_Slider{
-	position: absolute;
-	width: 3148px;
-	height: 615px;
-	margin: 450px 0 0 -580px;
+.ScrRep_leaf{
+	position: relative;
+	width: 126px;
+	height: 131px;
+	left: 225px;
+	top: 315px;
+	filter: blur(13.5px);
+	transform: rotate(-300deg);
 }
 
+/* --------------------- */
+
+
+
+/* Описание слайдера */
+/* Общий блок слайдера */
+.ScrRep_Slider{
+	width: 4656px;
+	height: 647px;
+	margin: 450px auto;
+}
+/* Параметры картинов */
+.imgslider{
+	margin: 0 0 0 354px;
+	width: 1212px;
+	height: 647px;
+}
+
+/* Внутрийнний блок сладера */
+.Slider{
+	width: 1920px;
+	height: 647px;
+	overflow: hidden;				/* Обрезам видимы обалсти слайдера с картинками выходящие за края страница и слайдера */
+}
+
+/* Линия прокрутки сладйера с картинками */
+.Slider-line{
+	width: 4656px;
+	height: 647px;
+	display: flex;					/* Выстариваем картинки в строку */
+	position: relative;
+	left: 0;							/* Устанавливаем начальную позицию */
+	transition: all ease 1s;	/* Устанавливаем плавную прокрутку */
+}
+/* ----------------------------- */
+
+/* КНОПКИ СЛАЙДЕРА */
+/* Контейнер для кнопок */
 .ScrRep_SliderButon{
 	position: absolute;
 	width: 155px;
@@ -1289,6 +1328,7 @@ body {
 	top: 1135px;
 }
 
+/* Левая кнопка */
 .ScrRep_SliderLeft{
 	position: absolute;
 	width: 66px;
@@ -1297,7 +1337,17 @@ body {
 	border: 4px solid #2E363E;
 	border-radius: 50%;
 }
+.ScrRep_SliderLeft:active{
+	top: 2px;
+}
+.btn_sliderLeft{
+	font-size: 40px;
+	font-weight: 700;
+	line-height: 57px;
+	padding-right: 5px;
+}
 
+/* Правая кнопка */
 .ScrRep_SliderRight{
 	position: absolute;
 	width: 66px;
@@ -1307,42 +1357,18 @@ body {
 	border: 4px solid #2E363E;
 	border-radius: 50%;
 }
-
-.ScrRep_ArrowLeft{
-	position: absolute;
-	width: 30px;
-	height: 30px;
-	border-top: 10px solid #2E363E;
-	border-right: 10px solid #2E363E;
-	left: 20px;
-	top: -3px;
-	transform: rotate(-135deg);
+.ScrRep_SliderRight:active{
+	top: 2px;
 }
-
-.SCRRep_ArrowRight{
-	position: absolute;
-	width: 30px;
-	height: 30px;
-	border-top: 10px solid #2E363E;
-	border-right: 10px solid #2E363E;
-	left: 5px;
-	top: -2px;
-	transform: rotate(45deg);
-}
-/*#endregion*/
-
-
-
-/* ***************************** */
-.slidetInfo{
-	position: absolute;
-	left: 300px;
-	font-size: 72pt;
-	color: red;
+.btn_sliderRight{
+	font-size: 40px;
 	font-weight: 700;
+	line-height: 57px;
+	padding-left: 5px;
 }
-/* ***************************** */
+/* ----------------------------------------------- */
 
+/*#endregion*/
 
 
 /* -----------------------------------------
